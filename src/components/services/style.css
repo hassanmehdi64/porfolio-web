@@ -1,0 +1,88 @@
+.services-page-back {
+  background-color: #111827;
+}
+.services-main {
+  padding: 96px 163px;
+}
+.services-page-text h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.services-page-text span {
+  color: #eab308;
+}
+.services-page-text p {
+  max-width: 460px;
+  color: #eeeeee;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 600px;
+  margin-bottom: 56px;
+}
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  /* max-width: 350px; */
+  padding: 32px;
+  background-color: #020617;
+  border: 1px solid #ccc;
+}
+
+.card .icon {
+  font-size: 50px;
+  color: #eab308;
+  margin-bottom: 32px;
+}
+.card h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 150px;
+  margin-bottom: 16px;
+}
+.card p {
+  width: 286px;
+  color: #585e6d;
+}
+
+@media (max-width: 1270px) {
+  .services-main {
+    padding: 96px 90px;
+  }
+}
+@media (max-width: 730px) {
+  .services-main {
+    padding: 96px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .services-main {
+    padding: 40px 40px;
+  }
+  .services-page-text h1 {
+    font-size: 30px;
+  }
+  .services-page-text p {
+    font-size: 14px;
+  }
+  .card {
+    padding: 20px;
+  }
+}

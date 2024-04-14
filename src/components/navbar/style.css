@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  .navbar{
+    background-color: #1F4172;
+    /* position: fixed; */
+  }
+  .navbar-option ul li a.active{
+    color: #eab308;
+  }
+  .hamburger{
+    display: none;
+  }
+  .hamberger-close{
+    display: none;
+  }
+  .navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 168px;
+  }
+  .aliyas-logo{
+    max-width: 158px;
+
+  }
+  .navbar-left{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    gap: 40px;
+    color: #fff;
+  }
+  .navbar-option ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .navbar-option ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+}    
+
+@media(max-width:1270px){
+  .navigation-bar{
+    padding: 20px 90px;
+  }
+}
+@media(max-width:730px){
+  .navigation-bar{
+    padding: 20px 50px;
+  }
+}
+
+@media(max-width:600px){
+.navbar{
+    position: relative;
+}
+.navigation-bar{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-option{
+  position: absolute;
+  background-color: #111827;
+  top: 55px;
+  left: 0;
+  right: 0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+  z-index: 1;
+}
+.navbar-option ul{
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 23px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.navbar-option ul li a{
+  font-size: 12px;
+}
+.hamburger{
+  display: block;
+}
+.hamberger-close{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  top: 10px;
+}
+}

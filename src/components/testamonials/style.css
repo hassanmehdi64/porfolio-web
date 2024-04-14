@@ -1,0 +1,23 @@
+.user-review-page-back{
+    background-color: #111827;
+}
+.user-review-main{
+    padding: 96px 163px;
+}
+.slider-main{
+    margin: auto;
+   height: 350px;
+   max-width: 1000px;
+   border: 3px solid red;
+}
+.slider-main img{
+    
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.inner-slider{
+    height: 320px;
+  
+}

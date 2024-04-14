@@ -1,0 +1,188 @@
+.footer-page-back {
+  background-color: #111827;
+}
+.footer-main {
+  padding: 96px 163px;
+}
+.footer-heading {
+  display: flex;
+  justify-content: center;
+}
+.footer-heading .heading {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 56px;
+  font-weight: 700px;
+  color: #fff;
+  margin-bottom: 15px;
+  max-width: 650px;
+}
+.footer-main span {
+  color: #eab308;
+}
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.info-left h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500px;
+  color: #fff;
+  margin-bottom: 15px;
+  max-width: 650px;
+}
+.other-plateform {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+.other-plateform .icons {
+  font-size: 25px;
+  font-weight: 500px;
+  color: #fff;
+  margin-top: 15px;
+}
+.other-plateform .icons:hover {
+  color: #eab308;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #020617;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin-bottom: 15px;
+  border: 1px solid #eab308;
+  /* padding: 15px 50px; */
+  height: 60px;
+}
+.inputs input {
+  border: none;
+  max-width: 90%;
+  outline: none;
+  background: transparent;
+  font-family: "Space Grotesk", sans-serif;
+  color: #585e6d;
+  font-size: 22px;
+  height: 40px;
+}
+.inputs .user {
+  font-size: 23px;
+  font-weight: 500px;
+  color: #585e6d;
+}
+.message {
+  width: 400px;
+  height: 170px;
+  font-family: "Space Grotesk", sans-serif;
+  color: #585e6d;
+  font-size: 22px;
+  padding: 10px;
+  background-color: #020617;
+  border: 1px solid #eab308;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.submit-message {
+  display: block;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  background-color: #ceb027;
+  font-weight: 500;
+}
+.submit-message:hover {
+  background: transparent;
+  border: 1px solid #eab308;
+  color: #fff;
+}
+.footer-line{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+hr{
+  width: 90%;
+  background-color: #eab308;
+  height: 5px;
+}
+.upArrow{
+  font-size: 55px;
+  color: #eab308;
+}
+
+@media (max-width: 1270px) {
+  .footer-main {
+    padding: 96px 90px;
+  }
+}
+@media (max-width: 951px) {
+  .contact-details {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 730px) {
+  .footer-main {
+    padding: 96px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .footer-main {
+    padding: 40px 40px;
+  }
+  .footer-heading .heading {
+    font-size: 30px;
+  }
+  .info-left h1 {
+    font-size: 14px;
+  }
+  .other-plateform .icons {
+    font-size: 20px;
+  }
+  .message {
+    width: 350px;
+    font-size: 20px;
+  }
+  .submit-message {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer-main {
+    padding: 40px 40px;
+  }
+  .inputs {
+    max-width: 300px;
+    height: 50px;
+  }
+  .inputs input {
+    border: none;
+    max-width: 90%;
+    outline: none;
+    background: transparent;
+    font-family: "Space Grotesk", sans-serif;
+    color: #585e6d;
+    font-size: 18px;
+    height: 40px;
+  }
+  .inputs .user {
+    font-size: 18px;
+  }
+  .message {
+    width: 300px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,136 @@
+.experience-page-back {
+  background-color: #020617;
+}
+.experience-main {
+  padding: 96px 163px;
+}
+.experience-page-text h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.experience-page-text span {
+  color: #eab308;
+}
+.experience-page-text p {
+  max-width: 460px;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 600px;
+  margin-bottom: 56px;
+}
+.experience-cards {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 200px;
+}
+.main-card {
+  max-width: 300px;
+  position: relative;
+}
+.inner-card {
+  border: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 50px 0 0;
+  width: 450px;
+  height: 300px;
+  background: transparent;
+  padding: 45px;
+}
+.company-logo img {
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  left: 50px;
+  bottom: 250px;
+  border-radius: 50%;
+  position: absolute;
+}
+.inner-card h1 {
+  padding-top: 20px;
+  height: 80px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 350px;
+  margin-bottom: 16px;
+}
+.inner-card .details {
+  height: 50px;
+  color: #585e6d;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 16px;
+}
+.inner-card .details span {
+  color: #eab308;
+}
+.inner-card .joining-date {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media(max-width:1270px){
+  .experience-main{
+    padding: 96px 90px;
+  }
+ 
+}
+
+@media(max-width:1050px){
+  .experience-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 80px;
+    }
+}
+@media(max-width:730px){
+  .experience-main{
+    padding: 96px 50px;
+  }
+ 
+}
+@media (max-width:500px){
+  .experience-main{
+    padding: 40px 40px;
+  }
+  .experience-page-text h1 {
+   font-size: 30px;
+  }
+  .experience-page-text p {
+   font-size: 14px;
+  }
+  .inner-card {
+    width: 310px;
+    height: 250px;
+    padding: 35px;
+  }
+  .company-logo img {
+    width: 90px;
+    height: 90px;
+    bottom: 210px;
+  }
+  .inner-card h1{
+    font-size: 20px;
+    height: 60px;
+  }
+}
