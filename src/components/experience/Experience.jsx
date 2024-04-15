@@ -21,33 +21,46 @@ function Experience() {
           <div className="experience-cards">
             <div className="main-card">
               <div className="company-logo">
-                <img src=".././assets/imx.jpg" />
-              </div>
-              <div className="inner-card">
-                <h1>Jounior FullStack Developer</h1>
-
-                <p className="details">
-                  Working as a jounior FullStack Developer at <Link to="https://ideometrix.com/" target="_blank"><span>Ideometrix</span></Link>.
-                </p>
-                <p className="joining-date">04 / jan / 2024</p>
-              </div>
-            </div>
-            <div className="main-card">
-              <div className="company-logo">
-                <img src=".././assets/cologix.jpg" />
+                <img src=".././assets/3beez.jpg" />
               </div>
               <div className="inner-card">
                 <h1>Frontend Developer</h1>
 
                 <p className="details">
-                  Worked as a frontend Developer at <Link to="https://www.linkedin.com/company/cologixs/" target="_blank"><span>Cologixs</span></Link>.
+                  My role as a Frontend Developer focused on crafting
+                  and maintaining dynamic web interfaces using cutting-edge technologies at <a href="https://3beeztech.com/"><span>3Beez</span></a>
+                  <p className="joining-date">Nov 2023  –---   March 2024</p>
                 </p>
-                <div className="dates">
-                  <p className="joining-date">07 / oct / 2023</p>
-                  <p className="joining-date">-------------</p>
-                  <p className="joining-date">28 / dec / 2023</p>
+              </div>
+            </div>
 
-                </div>
+            <div className="main-card">
+              <div className="company-logo">
+                <img src=".././assets/cologix.jpg" />
+              </div>
+              <div className="inner-card">
+                <h1>Laravel Developer</h1>
+
+                <p className="details">
+                  As a PHP/Laravel Developer at Web Collection, I specialized in creating
+                  and maintaining web applications using PHP and the Laravel framework.<Link to="https://www.linkedin.com/company/cologixs/" target="_blank"><span></span></Link>.
+                  <p className="joining-date">Dec 2022 –--- May 2023</p>
+                </p>
+              </div>
+            </div>
+
+
+            <div className="main-card">
+              <div className="company-logo">
+                <img src=".././assets/3beez.jpg" />
+              </div>
+              <div className="inner-card">
+                <h1>Full Stack Developer / Trainer</h1>
+                <p className="details">
+
+                  As a Full Stack Developer/Trainer at 3Beez Tech, I mastered web dev and training, leading impactful projects and mentoring teammates in diverse tech stacks.
+                  <p className="joining-date">Feb 2022 –---  March 2024</p>
+                </p>
               </div>
             </div>
           </div>

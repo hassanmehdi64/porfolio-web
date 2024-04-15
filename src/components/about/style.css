@@ -19,6 +19,11 @@
   border-radius: 10px;
 }
 
+.about-page-left img:hover{
+  box-shadow: 0px 0px 10px #794825;
+
+}
+
 .about-page-right h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 42px;
