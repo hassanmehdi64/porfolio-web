@@ -47,6 +47,7 @@
   font-size: 14px;
   background-color: #CEB027;
   font-weight: 500;
+  border: none;
 }
 
 .about-page-right button:hover {

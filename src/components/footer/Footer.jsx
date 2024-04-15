@@ -50,10 +50,10 @@ function Footer() {
       );
   };
 
-  const scrollToTop= () => {
+  const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior:"smooth",
+      behavior: "smooth",
 
     })
   }
@@ -70,13 +70,15 @@ function Footer() {
         <div className="contact-details">
           <div className="info-left">
             <h1>
-              Phone_ <span>+923119730546</span>
+              Phone_ <span>+923455927507</span>
             </h1>
             <h1>
-              E mail_ <span>aliyasmuhammad1122@gmail.com</span>
+              E mail_ <span>hassanshafa64@gmail.com</span>
             </h1>
             <h1>
-              Location_ <span>Khomer_Yarkot_gilgit</span>
+            Addres 1_ <span>Cavallary Grounds, seven street bazar lahore</span> <br />
+              Addres 2_ <span>Danyore Gilgit</span>
+            
             </h1>
             <h1>
               Country_<span>Pakistan</span>

@@ -161,6 +161,7 @@
   font-size: 14px;
   background-color: #ceb027;
   font-weight: 500;
+  border: none;
 }
 
 .view-more-btn:hover {

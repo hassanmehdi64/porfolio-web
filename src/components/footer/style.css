@@ -101,6 +101,7 @@
   font-size: 18px;
   background-color: #ceb027;
   font-weight: 500;
+  border: none;
 }
 .submit-message:hover {
   background: transparent;
