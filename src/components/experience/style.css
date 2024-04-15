@@ -39,6 +39,7 @@
 .main-card {
   max-width: 300px;
   position: relative;
+
 }
 
 .inner-card {
@@ -80,6 +81,7 @@
   font-family: "Space Grotesk", sans-serif;
   font-size: 15px;
   line-height: 25px;
+  padding-bottom: 500px;
   margin-bottom: 36px;
 
 }
@@ -106,6 +108,7 @@
   .experience-main {
     padding: 96px 90px;
   }
+
 
 }
 
@@ -141,14 +144,14 @@
 
   .inner-card {
     width: 310px;
-    height: 250px;
+    height: 320px;
     padding: 35px;
   }
 
   .company-logo img {
     width: 90px;
     height: 90px;
-    bottom: 210px;
+    bottom: 280px;
   }
 
   .inner-card h1 {

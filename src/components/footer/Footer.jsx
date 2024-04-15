@@ -70,28 +70,28 @@ function Footer() {
         <div className="contact-details">
           <div className="info-left">
             <h1>
-              Phone_ <span>+923455927507</span>
+              Phone: <span>+923455927507</span>
             </h1>
             <h1>
-              E mail_ <span>hassanshafa64@gmail.com</span>
+              E mail: <span>hassanshafa64@gmail.com</span>
             </h1>
             <h1>
-            Addres 1_ <span>Cavallary Grounds, seven street bazar lahore</span> <br />
-              Addres 2_ <span>Danyore Gilgit</span>
-            
+              Addres 1: <span>Cavallary Grounds, seven street bazar lahore</span> <br />
+              Addres 2: <span>Danyore Gilgit</span>
+
             </h1>
             <h1>
-              Country_<span>Pakistan</span>
+              Country: <span>Pakistan</span>
             </h1>
             <div className="other-plateform">
               <Link
-                to="https://www.facebook.com/aliyas.muhammad.370"
+                to="https://www.facebook.com/profile.php?id=100046092938968"
                 target="_blank"
               >
                 <ImFacebook2 className="icons" />
               </Link>
               <Link
-                to="https://www.linkedin.com/in/aliyas-muhammad/"
+                to="https://www.linkedin.com/in/hassan-mehdi-69b493216/"
                 target="_blank"
               >
                 <FaLinkedin className="icons" />

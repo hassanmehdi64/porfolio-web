@@ -36,7 +36,7 @@ function Experience() {
 
             <div className="main-card">
               <div className="company-logo">
-                <img src=".././assets/cologix.jpg" />
+                <img src=".././assets/webcollection.jpg" />
               </div>
               <div className="inner-card">
                 <h1>Laravel Developer</h1>
