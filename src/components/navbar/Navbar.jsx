@@ -8,7 +8,9 @@ function Navbar() {
     <div className="navbar">
       <nav className="navigation-bar">
         <div className="navbar-left">
-          <img className="aliyas-logo" src=".././assets/aliyas.png"/>
+     
+<h2>Hassan <span id="logoname"> Mehdi</span></h2>
+
         </div>
         <div className="navbar-option" ref={navRef}>
           <ul>

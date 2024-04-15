@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
   }
+  #logoname{
+    color: #eab308;
+  }
   .navbar{
     background-color: #1F4172;
     /* position: fixed; */
