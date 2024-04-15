@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import { FaDownload } from "react-icons/fa";
 
 function About() {
   return (
@@ -20,6 +21,11 @@ function About() {
           <Link to="/contact">
             <button>Contact Me</button>
           </Link>
+          <a href="/assets/CVHassan_mehdi.pdf" download="CVHassan_mehdi.pdf">
+            <button id="cv_btn">
+              Download CV <FaDownload />
+            </button>
+          </a>
         </div>
       </div>
     </div>
